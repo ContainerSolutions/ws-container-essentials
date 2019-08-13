@@ -1,0 +1,12 @@
+{
+  "name": "docker-node-app",
+  "version": "1.0.0",
+  "description": "example node app for use with docker",
+  "dependencies": {
+    "js-yaml": ">=3.13.0",
+    "connect": ">=3.7.0",
+    "serve-static": ">=1.14.0",
+    "finalhandler": ">=1.1.2",
+    "multiparty": ">=4.2.1"
+  }
+}

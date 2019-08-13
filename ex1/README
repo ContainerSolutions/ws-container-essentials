@@ -1,0 +1,15 @@
+Preparation
++++++++++++
+
+1. To create the 'contain' binary:
+
+$ gcc -o contain contain.c -lrt
+
+2. Change ownership of the binary to 'root.root' and move to /usr/local/bin:
+
+$ sudo chown root.root ./contain
+$ sudo mv ./contain /usr/local/bin
+
+3. An up to date rootfs can be retrieved from the following URL:
+
+https://partner-images.canonical.com/core/bionic/current
